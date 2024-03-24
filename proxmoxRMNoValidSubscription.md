@@ -19,3 +19,9 @@ nano proxmoxlib.js
 Serch for if ( res ==
 
 change if statment to false to never trigger the message
+
+restart system
+
+```bash
+systemctl restart pveproxy
+```
