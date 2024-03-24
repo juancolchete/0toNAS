@@ -16,7 +16,7 @@ Open file
 nano proxmoxlib.js
 ```
 
-Serch for if ( res ==
+Serch for if (res ==
 
 change if statment to false to never trigger the message
 
