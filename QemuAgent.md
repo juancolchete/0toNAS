@@ -1,21 +1,25 @@
 ## Install Qemu
 
+### Arch linux
+```bash
+sudo pacman -Sy
+sudo pacman -S qemu-guest-agent
+```
 ### Ubuntu Debian
 ```bash
-pacman -Sy
-apt-get install qemu-guest-agent
+sudo apt-get install qemu-guest-agent
 ```
 
 ### Redhat
 ```bash
-yum install qemu-guest-agent
+sudo yum install qemu-guest-agent
 ```
 
 ## Start Qemu Agent
 ```bash
-systemctl start qemu-guest-agent
+sudo systemctl start qemu-guest-agent
 ```
 ## Enable autostart
 ```bash
-systemctl enable qemu-guest-agent
+sudo systemctl enable qemu-guest-agent
 ```
